@@ -1,0 +1,35 @@
+.form-comments {
+	width: 100%;
+}
+
+.form-comments input,
+.form-comments textarea,
+.form-comments button {
+	padding: 10px 15px;
+	width: 100%;
+	font-size: 16px;
+	line-height: 21px;
+	border: 1px solid #d4d4d4;
+	border-radius: 3px;
+}
+
+.form-comments input {
+	margin-bottom: 10px;
+}
+
+.form-comments textarea {
+	margin-bottom: 10px;
+	min-height: 100px;
+	resize: vertical;
+}
+
+.form-comments button {
+	cursor: pointer;
+	border: none;
+	color: #ffffff;
+	background: #4997d0;
+}
+
+form ::placeholder {
+	font-size: 16px;
+}

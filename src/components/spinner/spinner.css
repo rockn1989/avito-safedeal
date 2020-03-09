@@ -91,7 +91,7 @@
 	margin: 0 auto;
 	width: 204px;
 	height: 204px;
-	display: inline-block;
+	display: block;
 	overflow: hidden;
 	background: none;
 }

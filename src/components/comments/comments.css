@@ -1,0 +1,17 @@
+.comments-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 13px;
+	line-height: 15px;
+	font-family: "Roboto";
+}
+
+.comments-list .date {
+	margin-bottom: 5px;
+	color: #999999;
+}
+
+.comments-list .text {
+	color: #000000;
+}

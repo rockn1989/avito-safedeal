@@ -46,20 +46,19 @@ export default class ItemList extends Component {
 						this.onShowModal(id);
 					}}
 				>
-					<img src={url} />
+					<img src={url} alt={id} />
 				</li>
 			);
 		});
 	}
 
 	onShowModal(id) {
-		this._getData.getDetailInfo(id).then(({ id, url, comments }) => {
-			console.log(id, url, comments);
-		});
+		this.props.onToggleModal(true, id);
 	}
 
 	render() {
 		const { itemList, loading } = this.state;
+
 		const spinner = loading ? <Spinner /> : null;
 		const items = this.renderItems(itemList);
 
